@@ -1,0 +1,255 @@
+.navbar{
+	background-color: #007bff;
+}
+.jumbotron{
+	background-color: #ff079c;
+	margin-top: 56px;
+	padding: 150px 0;
+	background: url('../img/banner.png') no-repeat 50% 100%;
+}
+
+.txt-banner{
+	background: rgba(130, 220, 223, 0.7);
+	padding: 50px;
+	color: #ff4d0d;
+}
+
+.txt-registrar{
+	font-weight: bold;
+	color: #FFF;
+}
+
+.btn-busca{
+	background-color: #0062cc;
+	color: #FFF;
+}
+
+.produto{
+	width: 95%;
+	box-shadow: 0px 0px 7px #333;
+	padding: 15px;
+	margin: 0 auto 15px auto;
+}
+
+.img-prod{
+	width: 80%;
+	margin: 4px auto;
+}
+
+.img-prod > img{
+	max-width: 100%;
+}
+
+.link-prod{
+	color: #333;
+}
+
+.link-prod:hover{
+	color: #333;
+}
+
+.opinioes{
+	background-color: #ff4d0d;
+	padding: 50px 0;
+}
+
+.txt-center{
+	text-align: center;
+}
+
+.janela-opiniao{
+	box-shadow: 0 0 10px #333;
+	padding: 15px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius: 6px;
+}
+
+.thumb{
+	width: 130px;
+	max-width: 200px;
+	height: 130px;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 4px solid #afafaf;
+}
+
+.img-cliente{
+	background: url('../img/clientes.jpg') -10px -15px;
+}
+
+.img-cliente-2{
+	background: url('../img/clientes.jpg') -135px -15px;
+}
+
+.img-cliente-3{
+	background: url('../img/clientes.jpg') -10px -180px;
+}
+
+/*Sprite Selos*/
+.col-selo{
+	width: 200px;
+	max-width: 200px;
+}
+
+.col-selo-fix{
+	width: 90px;
+	max-width: 90px;
+}
+
+#selo1{
+	display: block;
+	background: url('../img/selos.png') no-repeat 0 -35px;
+	width: 100%;
+	height: 50px;
+}
+
+#selo2{
+	display: block;
+	background: url('../img/selos.png') no-repeat 0 -83px;
+	width: 100%;
+	height: 50px;
+}
+
+#selo3{
+	display: block;
+	background: url('../img/selos.png') no-repeat 0 -132px;
+	width: 100%;
+	height: 50px;
+}
+
+#selo4{
+	display: block;
+	background: url('../img/selos.png') no-repeat -38px -216px;
+	width: 100%;
+	height: 50px;
+}
+
+#selo5{
+	display: block;
+	background: url('../img/selos.png') no-repeat -219px -216px;
+	width: 90px;
+	max-width: 90px;
+	height: 50px;
+}
+
+#selo6{
+	display: block;
+	background: url('../img/selos.png') no-repeat -200px -40px;
+	width: 120px;
+	max-width: 120px;
+	height: 50px;
+}
+
+.seloEbit{
+	max-width: 100px;
+	margin: 0 auto;
+}
+
+.seloEbit img{
+	width: 100%;
+	max-width: 100%;
+}
+
+.center{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.redesSociais > img{
+	width: 60%;
+	min-width: 150px;
+	margin: auto;
+}
+footer{
+	padding-top: 40px;
+	color: #f0f0f0;
+	background-color: #007bff;
+}
+footer p{
+	text-align: center;
+}
+footer a{
+	color: #beff00;
+}
+
+.copyright{
+	font-size: 10pt;
+	padding: 7px 0;
+}
+
+.bordas{
+	border: none;
+}
+/*PRODUTOS*/
+.prods{
+	width: 90%;
+	margin: 10px auto 60px auto;
+	border: none;
+}
+.card{
+	text-align: center;
+	border: none;
+}
+.card-title{
+	color: #00a5f7;	
+}
+.card .btn{
+	background: #00c386;
+	width: 100%;
+}
+.card .btn:hover{
+	background: #beff00;
+}
+.img-fluid{
+	margin-top: 55px;
+	width: 100%;
+}
+.descricao .active{
+	border: none;
+	background: #565656;
+}
+.descricao{
+	margin-bottom: 30px;
+}
+.finalizar{
+	text-align: center;
+	margin-top: 50px;
+	padding: 130px 0 150px 0;
+	background: rgba(255,255,255,0.6);
+}
+.compra{
+	padding: 10px;
+	background: url(../img/banner-compra.jpg) no-repeat 50% 10%;
+}
+.compra h3{
+	color: #000;
+}
+.finalizar .btn{
+	background: #00c386;
+	margin-top: 80px;
+}
+.outros-prods{
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+	margin: 50px auto;
+}
+.outros-prods > h5{
+	text-align: left;
+
+}
+.outros-prods .prods{
+	width: 80%;
+}
+
+
+@media all and (min-width: 576px){
+	.produto{
+		margin-bottom: 0;
+	}
+}
+@media all and (max-width: 995){
+	.redesSociais > img{
+		min-width: 150px;
+	}
+}
